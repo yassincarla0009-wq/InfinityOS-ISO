@@ -1,0 +1,78 @@
+===============================================================
+                     INFINITY OS  1.0
+         A custom Linux desktop — powered by GNOME
+                      Built by Yassin
+===============================================================
+
+RELEASE: Infinity OS 1.0 (v2)
+BASE:    Ubuntu 22.04 LTS (GNOME) — fully rebranded, no Ubuntu apps
+ARCH:    64-bit (amd64)
+ISO:     InfinityOS.iso  (~4.75 GB)
+SHA256:  563AAAE70ACE178F7FC8B4471C65295B6A94874DEFF5C2C79E7983EB28E3316A
+
+---------------------------------------------------------------
+WHAT IS IT
+---------------------------------------------------------------
+Infinity OS is a custom, glassy GNOME desktop with a neon infinity
+theme. It boots live from USB and installs to any drive you pick.
+It is a real, usable daily OS.
+
+---------------------------------------------------------------
+FEATURES
+---------------------------------------------------------------
+* GNOME desktop with the "liquid glass" WhiteSur dark theme
+* Deep-space wallpaper + neon infinity boot splash (installed system)
+* Fully rebranded — shows "Infinity OS" everywhere, no Ubuntu apps
+* Brave browser (default) + make any site a web app (ChromeOS-Flex style)
+* Firefox (backup browser, real .deb)
+* Microsoft 365 web apps: Word, Excel, PowerPoint, Outlook (sign in online)
+* Run Windows programs: Wine 11 (.exe / .msi)
+* Gaming: Lutris, GameMode, MangoHud (Steam installs in 1 click via Lutris/repos)
+* DVD playback: VLC + libdvdcss (plays encrypted DVDs)
+* Variety: auto-download wallpapers from the internet
+* GParted + installer manual partitioning (create / delete / resize)
+* Eject external drives, mount ISOs
+* Settings, GNOME Tweaks, terminal, Files
+* Report a Problem app -> emails the maintainer
+* Infinity OS Updates -> manual updates over WiFi (NO forced updates)
+* Lightweight: snapd + tracker indexing disabled, zram + preload, FPS tuning
+* Smooth animations
+
+---------------------------------------------------------------
+HOW TO INSTALL
+---------------------------------------------------------------
+1. Flash InfinityOS.iso to a USB stick (4 GB+):
+      - Use Rufus (GPT / UEFI, ISO mode), Ventoy (drag the ISO on),
+        or balenaEtcher.  (Or use the included USB Creator.)
+2. Boot the target PC from the USB:
+      - Most laptops: tap F12 at power-on (Lenovo IdeaPad: F12 or the Novo button).
+3. Choose "Try or Install Infinity OS" in the GRUB menu.
+4. To install: open "Install Infinity OS", pick your drive, partition it,
+   create your user + password.  (The installer is removed after install.)
+5. Reboot into your new Infinity OS.
+
+Tip (some laptops): if the installer can't see your disk, set the BIOS
+storage mode to AHCI.  If it won't boot in UEFI, disable Secure Boot.
+
+---------------------------------------------------------------
+VERIFY YOUR DOWNLOAD
+---------------------------------------------------------------
+Windows (PowerShell):   Get-FileHash InfinityOS.iso -Algorithm SHA256
+Linux/macOS:            sha256sum InfinityOS.iso
+It must match the SHA256 above.
+
+---------------------------------------------------------------
+UPDATES
+---------------------------------------------------------------
+Infinity OS never force-updates. Open "Infinity OS Updates" whenever
+YOU want to update everything over WiFi.
+
+---------------------------------------------------------------
+SUPPORT
+---------------------------------------------------------------
+Hit a problem? Open the "Report a Problem" app on the desktop,
+describe the issue, leave your email, and it sends it to the maintainer.
+
+===============================================================
+  Infinity OS - powered by GNOME - built by Yassin
+===============================================================
